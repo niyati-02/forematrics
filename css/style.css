@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    display: flex;
+    padding-left: 5vh;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    cursor: pointer;
+    height: 7vh;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 5vh;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3vh;
+    transition: 0.3s ease;
+}
+
+.nav-list li a:hover{
+    text-decoration: none;
+    color: rgb(80, 70, 63);
+}
+
+.background{
+    background: rgba(1, 1, 1, 0.7) url('../img/new-product-500x500.webp');
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+.firstsection{
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    cursor:auto;
+}
+
+.bgcolor{
+    background-color: rgb(255, 255, 255);
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    color: aliceblue;
+    margin: auto;
+    max-width: 70%;
+    height: 50%;
+}
+
+.firsthalf{
+    width: 40%;
+    margin: auto;
+}
+
+.secondhalf{
+    width: 60%;
+    flex-direction: column;
+    padding: auto;
+    margin: auto;
+
+}
+
+.firsthalf img{
+    padding: auto;
+    justify-content: center;
+    width: 40vh;
+    height: 20vh;
+    padding-left: 1vh;
+}
+
+.text-title{
+    font-size: 5vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    padding-bottom: 2vh;
+}
+
+.text-subtitle{
+    font-size: 1vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.text-small{
+    font-size: 2vh;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.btn{
+    background-color: transparent;
+    border: 1vh;
+}
+
